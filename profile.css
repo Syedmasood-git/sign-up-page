@@ -71,31 +71,82 @@ margin-bottom: 20px;
 
 @media screen and (max-width: 1024px){
   .fullgreen {
-    bottom: -25%;
-    width: 100vw;
-    height: 100vh;
+    bottom: -30%;
+    width: 1300px;
+    height: 800px;
   }
   .card>p{
     font-size: 16px;
+  }
+  .card{
+    justify-content: center;  
   }
 }
 @media screen and (max-width: 834px){
   .fullgreen {
-    bottom: -25%;
-    width: 100vw;
-    height: 100vh;
+    bottom: -10%;
+    width: 1000px;
+    height: 500px;
+  }
+  .card{
+    width: 40vw;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 790px){
+  .fullgreen {
+    bottom: -10%;
+    width: 1000px;
+    height: 500px;
+  }
+  .card>p{
+    font-size: 16px;
+  }
+  .card{
+    width: 40vw;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 614px){
+  .fullgreen {
+    bottom: -20%;
+    width: 1000px;
+    height: 500px;
   }
   .card>p{
     font-size: 14px;
   }
+  .card{
+    width: 50vw;
+    justify-content: center;
+  }
 }
-@media screen and (max-width: 425){
+
+@media screen and (max-width: 445px){
   .fullgreen {
-    bottom: -25%;
-    width: 100vw;
-    height: 100vh;
+    bottom: -20%;
+    width: 1200px;
+    height: 800px;
   }
   .card>p{
-    font-size: 16px;
+    font-size: 14px;
+  }
+  .card{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 372px){
+  .fullgreen {
+    bottom: -20%;
+    width: 1000px;
+    height: 800px;
+  }
+  .card>p{
+    font-size: 14px;
+  }
+  .card{
+    width: 70vw;
   }
 }
