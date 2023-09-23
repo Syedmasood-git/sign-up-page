@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="bg">
+      <img class="greenbg" src="./Assets/green-bg.svg" />
+      <img class="whitebg" src="./Assets/white-bg.svg" />
+      <img class="centerwhite" src="./Assets/center-white-bg.svg" />
+    </div>
+    <div class="container">
+      <div class="card">
+        <h4>Welcome back! 👋</h4>
+        <h2>Sign up to your account</h2>
+        <form id="signUpForm">
+          <div class="name">Your name</div>
+          <input id="name" type="text" />
+          <div class="mail name">Your email</div>
+          <input type="email" id="email" />
+          <div class="pass name">Password</div>
+          <input type="password" id="pass1" />
+          <div class="pass name">Confirm Password</div>
+          <input type="password" id="pass2" />
+          <div class="btn-div">
+            <button type="submit" id="btn">Continue</button>
+          </div>
+          <div class="error">
+            <h4 id="errorText"></h4>
+          </div>
+        </form>
+      </div>
+      <div class="noacc">
+        <p>Don’t have an account?<a href="#"> Sign up</a></p>
+      </div>
+    </div>
+
+    <script src="signup.js"></script>
+  </body>
+</html>

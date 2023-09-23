@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f8fafc;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+.greenbg {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
+.whitebg {
+  position: absolute;
+  bottom: -4%;
+  left: 10%;
+}
+.centerwhite {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+}
+.card {
+  width: 35%;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  margin: 50px;
+  margin-left: 6%;
+  display: flex ;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+.card > h4 {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 0;
+}
+.card > h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 5px 0;
+}
+.name {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+}
+input {
+  border-radius: 6px;
+  border: 1px solid #dedede;
+  width: 60%;
+  padding: 6px;
+  margin: 5px 0;
+}
+.btn-div > #btn {
+    margin: 10px 0 20px 0;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #625bf7 0%, #463eea 100%);
+}
+.error{
+    width: 60%;
+}
+.error>h4{
+    color: #625BF7;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+}
+.noacc{
+    position: absolute;
+    left: 45%;
+    bottom: 15%;
+}
+.noacc>p{
+font-size: 12px;
+font-weight: 400;
+}
+a{
+    color: #625BF7;
+text-decoration: none;
+}
+a:visited{
+    color: #625BF7;
+}
+
+
+@media screen and (max-width: 1024px){
+  .greenbg{
+  bottom: -3%;
+  left: 10%;
+  }
+  .whitebg {
+    position: absolute;
+    bottom: -7%;
+    left: 10%;
+  }
+  .centerwhite {
+    position: absolute;
+    top: 32%;
+    left: 25%;
+    width: 50%;
+  }
+  .noacc{
+    left: 42%;
+    bottom: 11%;
+  }
+}
+
+
+@media screen and (max-width: 821px){
+  .noacc{
+    left: 42%;
+    bottom: 8%;
+  }
+  input{
+    width: 80%;
+  }
+  .btn-div{
+    width: 100%;
+  }
+  #btn{
+    width: 100%;
+  }
+  .card>h2{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 637px){
+  .greenbg{
+    bottom: -8%;
+    left: 10%;
+    }
+    .whitebg {
+      position: absolute;
+      bottom: -12%;
+      left: 10%;
+    }
+    .centerwhite {
+      position: absolute;
+      top: 37%;
+      left: 29%;
+      width: 50%;
+    }
+    .noacc{
+      left: 42%;
+      bottom: 7%;
+    }
+}
+@media screen and (max-width: 637px){
+  .greenbg{
+    bottom: -12%;
+    left: 10%;
+    }
+    .whitebg {
+      position: absolute;
+      bottom: -16%;
+      left: 10%;
+    }
+    .centerwhite {
+      position: absolute;
+      top: 39%;
+      left: 24%;
+      width: 60%;
+    }
+    .noacc{
+      left: 32%;
+      bottom: 15%;
+    }
+    .card>h2{
+      font-size: 16px;
+      width: 100%;
+    }
+    .card{
+      width: 50%;
+      left: 28%;
+    }
+}
